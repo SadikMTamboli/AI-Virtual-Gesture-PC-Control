@@ -1,7 +1,8 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 import numpy as np
-
+from tkinter import *
+from PIL import Image, ImageTk
 import cv2
 import os
 
@@ -203,8 +204,6 @@ class Shadow(tk.Tk):
                         ff.configure(width=1, height=y1-y0+ii*2-diff_size['u']-diff_size['d'])
                         ff.place(x=xx, y=y0-ii+1+diff_size['u'])
 
-from tkinter import *
-from PIL import Image, ImageTk
 
 top = tk.Tk()
 top.title("AI Virtual Gesture PC Control")
